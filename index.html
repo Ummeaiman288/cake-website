@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Confections</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section start page -->
+
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> cake </a>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Review</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+
+</header>
+
+<!-- home section start -->
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Have a Classic-Confection</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://images.stockcake.com/public/7/7/3/77389b20-09c9-471a-a23f-b0072a3c0ae4_large/delicious-carrot-cake-stockcake.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a Classic-Confection</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://images.stockcake.com/public/7/2/5/72516832-7b59-4a86-a8e9-4d226502171f_large/wedding-cake-elegance-stockcake.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a Classic-Confection</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://images.stockcake.com/public/0/9/0/0903148b-361a-4444-9c86-7a2b1e781b1f_large/elegant-wedding-cake-stockcake.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img decoding="async" src=  "https://images.stockcake.com/public/5/7/1/57102b43-f967-4db4-ae1d-cbe41eb01ec5/elegant-frosted-cake-stockcake.jpg" alt="">
+        alt="">
+
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="https://images.stockcake.com/public/0/0/3/00396a09-13c6-48f2-ac68-5e0f1fd2ee0a_large/fishing-themed-cake-stockcake.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="https://images.stockcake.com/public/b/a/1/ba118dff-fab2-4c27-ac72-47d6d3bfac18_large/chess-themed-cake-stockcake.jpg">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+</section>
+
+
+<!-- category start  -->
+
+<div class="heading">
+    <h1>our shop</h1>
+    </div>
+
+<section class="category">
+
+<h1 class="title"> our <span>category</span> <a href="#">view all >></a> </h1>
+
+<div class="box-container">
+
+    <a href="#" class="box">
+        <img decoding="async" src="https://images.stockcake.com/public/b/4/d/b4de77c7-c3f4-4dac-b0b4-24f0e50a9244/delicious-cupcake-display-stockcake.jpg" alt="">
+        <h3>fresh cupcake</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="https://images.stockcake.com/public/d/1/f/d1f64db8-4b9c-4228-92b9-b2eb18272292_large/freshly-baked-cookies-stockcake.jpg" alt="">
+        <h3>cookies</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="https://images.stockcake.com/public/7/1/0/7104c33e-86d0-4653-bf2f-b30961e1a622_large/artisan-bread-basket-stockcake.jpg" alt="">
+        <h3>brown bread</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="https://media.istockphoto.com/id/1276645382/photo/chocolate-assortment-background-top-view-of-different-kinds-of-chocolate.webp?b=1&s=612x612&w=0&k=20&c=ZQ8Hgeb3akXbi3d6faOrGi902WgGs50LyCX6ueG0_I0=" alt="">
+        <h3>Dark chocolate</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="https://media.istockphoto.com/id/1308281369/photo/factory-for-the-production-of-bakery-products.webp?b=1&s=612x612&w=0&k=20&c=wxJPfuYzfWb4KtFfei4keRASK1ky7sXiaYACAsMgXWQ=" alt="">
+        <h3>Wheat</h3>
+    </a>
+
+
+</div>
+
+</section>
+
+
+<!-- products section -->
+
+<section class="products">
+
+    <h1 class="title"> our <span>products</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/942451482/photo/woman-cut-a-piece-of-cake-for-the-birthday-celebrant.webp?b=1&s=612x612&w=0&k=20&c=VYeL-EGs3RqfC-yyEuJDeC6PYXXE5sdaWS7fmxJWMVM=" alt="">
+            </div>
+            <div class="content">
+                <h3>berries citrus fruits cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/1132113997/photo/wedding-cake-with-white-spring-flowers-and-macaroon-on-top.webp?b=1&s=612x612&w=0&k=20&c=IgUNzmhbQBUjsJqzOuZymRQq4kxs7w_5GigJJAF3fCw=" alt="">
+            </div>
+            <div class="content">
+                <h3>resh mellow sp color cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/1322579430/photo/chocolate-cake-covered-with-swiss-meringue-buttercream-with-red-flowers-to-decorate.webp?b=1&s=612x612&w=0&k=20&c=rKEo4lKdkJ0xw6u-_2XAJ_toGL3Il37Yuoziya9xWsc=" alt="">
+            </div>
+            <div class="content">
+                <h3>Rose color sparkel cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/1369472303/photo/french-toast-with-chocolate-strawberry-and-banana.webp?b=1&s=612x612&w=0&k=20&c=SltqHRCIm7th-8k5jgK61CnQ_hXtacBTlyMQnqldwG4=" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/1215532366/photo/baked-cornbread-with-spinach-in-the-baking-tray.webp?b=1&s=612x612&w=0&k=20&c=GwUYFyucaboyuq_ElS3vIUrPpN-tePDFIU7mJiMhZPU=" alt="">
+            </div>
+            <div class="content">
+                <h3>green bread spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/1492626241/photo/cherry-and-chocolate-cake-birthday-or-celebration-cake-cream-cherry-and-chocolate-cake-on-a.webp?b=1&s=612x612&w=0&k=20&c=gvxdNzAhPsTor-i6t1xKS_-5jvflnp5y60Q-9dvExYs=" alt="">
+            </div>
+            <div class="content">
+                <h3>red berries chocolate cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/924295044/photo/cake-with-white-background.webp?b=1&s=612x612&w=0&k=20&c=14ILzFhUhJeHl6yOnI2r4Xt3xWh0p925W5vkOOhAR2Y=" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry red spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/928103706/photo/chocolate-cake-with-hot-chocolate-sauce-and-fried-hazelnuts-on-a-dark-concrete-background.webp?b=1&s=612x612&w=0&k=20&c=iDskbyY1QHEgEGs6NjvEQfM9I2SXoEzwUhTDkGdcGJg=" alt="">
+            </div>
+            <div class="content">
+                <h3>dark chocolate nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+<!-- about section start -->
+<div class="heading">
+    <h1>About us</h1>
+    </div>
+
+<section class="about">
+    <div class="img">
+         <img decoding="async" src="img/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>welcome to our products</span>
+        <h3> Classic-Confections</h3>
+        <p>Welcome to homemade. What does homemade mean to you? Is it something you cook or make for your family or the time with family or smells that build the memories? When I started this homemade baking business in April of 2012, it was with the idea that everything would be made from scratch.  Mainly because of my own memories in the kitchen of cooking with my family. Coming from a big family, everything was made from scratch so never in a million years did I imagined how much fun I was going to have baking for my community.  When I say baked from scratch, I mean that I use basic ingredients from start to finish. I make buttercream frosting with real butter and our custom cakes, cinnamon rolls, and cookies made completely from scratch with farm-fresh local eggs and real butter. 
+        </p>
+        <p> Finally, I hope that your visit to this website will be fun and educational.
+            I have spent years baking and I love to make delicious food for my family and friends. When you order from our bakery you become a friend and part of our growing family. 
+        </p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+<!-- gallery section start -->
+
+<section class="gallery">
+    <h1 class="title"> our <span>gallery</span> <a href="#">view all >></a> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img decoding="async" src="https://images.freeimages.com/variants/DrmyoTVgkomHG7bRAknG8dh2/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="https://media.istockphoto.com/id/499694406/photo/baker-in-his-bakery-baking-bread.webp?b=1&s=612x612&w=0&k=20&c=_AibZkd_VY1gfPyWcK7ov3RSZEjQ9HKLUFFa9nl9JfQ=" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="https://media.istockphoto.com/id/1623084565/photo/group-of-employees-working-at-a-bakery-baking-bread.webp?b=1&s=612x612&w=0&k=20&c=s2xJ6QTugPlTC3oL2eisLrvh9TGeLGlVbFzdmyMRzPM=" alt="">
+
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="https://media.istockphoto.com/id/1428412216/photo/a-male-chef-pouring-sauce-on-meal.webp?b=1&s=612x612&w=0&k=20&c=O6f05DPG0yuRLpMxTRX5qTv4T8jZLrYMNT0ZePoYnuQ=" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="https://media.istockphoto.com/id/1317789159/photo/interior-of-a-local-coffee-shop.jpg?s=612x612&w=0&k=20&c=IR7_AIfE9cbuGyYpsz9sX-2dB4WY6h4KIfg9-G1gU84=" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="https://media.istockphoto.com/id/1349391525/photo/male-baker-checking-condition-of-fresh-pastries-in-oven.jpg?s=612x612&w=0&k=20&c=cnirBe0RtIIm2bKsjsWYvQPWu8ZrTMaC1j9S2BgMEd0=" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- client section start -->
+
+<div class="heading">
+    <h1>client's review</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="https://media.istockphoto.com/id/1357628404/photo/courier-ready-to-deliver-bread.webp?b=1&s=612x612&w=0&k=20&c=FHfZJZXvfk6H5J1tzJjipzJZrweyioU-kShQwSE-J6Q=" alt="">
+        <div class="content">
+            <h3>fast delivery</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="https://media.istockphoto.com/id/1834588133/photo/happy-excited-attractive-young-asian-woman-in-denim-apron-received-online-order-in-coffee.webp?b=1&s=612x612&w=0&k=20&c=lqaEwk8Tj6uHgncZCf6kiq3hJHy9HuSb3A1Lh3gyFmQ=" alt="">
+        <div class="content">
+            <h3>24 / 7 available</h3>
+            <span>call us anytime</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="https://media.istockphoto.com/id/2136641912/photo/hands-of-a-young-man-which-makes-contactless-payment-for-clothes-that-he-bought-in-a-boutique.webp?b=1&s=612x612&w=0&k=20&c=33HMGP_-Rc0UpXYHIu1FfNGK2cptPmMggCu1ZVZ9XJQ=" alt="">
+        <div class="content">
+            <h3>easy payments</h3>
+            <span>cash or credit</span>
+        </div>
+    </div>
+
+</section>
+
+<!-- review section start -->
+
+<section class="review">
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/1289220545/photo/beautiful-woman-smiling-with-crossed-arms.webp?b=1&s=612x612&w=0&k=20&c=V0w97TpL-tuD3vdWC6AcD_nLE4BiAEN12mJdVZGw51g=" alt="">
+            <div class="info">
+                <h3>Sara Aly</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>We ordered a cake from here on very short notice for my son who was returning home from Iraq! They did an awesome job and they were so very helpful being as it was such a short notice. The cake tasted great and looked wonderful!! Would not hesitate to order from them again, in fact I am sure I have found a new place to order all of my cakes!!</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/1389348844/photo/studio-shot-of-a-beautiful-young-woman-smiling-while-standing-against-a-grey-background.webp?b=1&s=612x612&w=0&k=20&c=Qg_NGtphkhd-9tbqJrGX8K2x8YefvR8go2KnMSzCq2g=" alt="">
+            <div class="info">
+                <h3>Zoya Khan</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>We always order our cakes for our 2 sons birthday parties and we are never disappointed! The Jordan Chicago Bulls jersey cake and matching smash cake were both GREAT! Excellent work. We will be sure to come back in September when our son Jayden turns 5 and see what you guys create for us! </p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/2099403180/photo/laughing-yougn-businesswoman-standing-with-her-arms-crossed-against-an-office-wall.webp?b=1&s=612x612&w=0&k=20&c=bgwPPKv8fYBoysP5q1c_O06YSKwAKdUmalLPIi2X8YQ=" alt="">
+            <div class="info">
+                <h3>Amna Salman</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>I live in the neighborhood of this bakery. I go there sometimes daily for their coffee, best coffee in town. I have never ordered a cake there, it's a lil pricey for my taste BUT I have ate cake from there and it's always yummy. My kids LOVE their season sugar cookies. We always have to go in there and get a couple when a new holiday is coming out. Best to get them fresh. As the frosting hardens and doesn't taste as good.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/1185367863/photo/smiling-business-woman-portrait.webp?b=1&s=612x612&w=0&k=20&c=2SOgmuNTw-afpUq637Q3NDdOXftSPgsKNJGEE3UQIKI=" alt="">
+            <div class="info">
+                <h3>Mrs.Bilal</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p> We purchased our wedding cake from By the Dozen and had a great experience. The cake tasted great and was exactly what we asked for. It was delivered on time and looked as pictured in the example photo we provided at the cake tasting. The tasting was convenient and allowed for us to make the choices we wanted for the perfect cake on our wedding night. All of our guests enjoyed the cake and we get to have a small cake for no charge on our anniversary complimentary. We were very pleased with the product and service! </p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/1915382108/photo/smiling-friendly-confident-millennial-caucasian-lady-manager-teacher-in-formal-wear-with.webp?b=1&s=612x612&w=0&k=20&c=MFZSdh5nKL4xU4gIkK4XN12aSTgMOTYsYuQbxXsh7r0=" alt="">
+            <div class="info">
+                <h3>Nabiha Amjad</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>We were not disappointed at all. BTD did an amazing job on our daughter's Sweet 16 cake. Kayla walked us through all our options and made ordering easy. The cake was delivered on schedule and was more than expected.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="https://media.istockphoto.com/id/685132245/photo/mature-businessman-smiling-over-white-background.webp?b=1&s=612x612&w=0&k=20&c=ykSLzE5fO0cYcfqGVirL25kUOA_BlZIHVTIPE4Qq89w=" alt="">
+            <div class="info">
+                <h3>Mr.Aliyan</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>I want to thank you all very much for making my son's amazing Vikings birthday cake! I had been busy with the holiday and getting everything else ready for his party that I almost forgot his cake. I ended up ordering online which was very convenient and even with it being last-minute we were presented with a delicious cake that everyone enjoyed, we will definitely be back and recommend to all!</p>
+    </div>
+
+</section>
+
+<!-- blog section start -->
+
+<div class="heading">
+    <h1>our blogs</h1>
+</div>
+
+<section class="blogs">
+    <h1 class="title"> our <span>blogs</span> <a href="#">view all >></a> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="https://media.istockphoto.com/id/614623616/photo/diversity-of-dessert-with-fruit.webp?b=1&s=612x612&w=0&k=20&c=XDSRuZ6rMoClzkfmVjA5TD_Znofx9opHP2y4EGN3sUY=" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+             
+            </div>
+             <h3>Pastries</h3>
+             <p>Pastries tend to have a delicate texture, often flaky or crumbly, and rich flavor—simple breads are thus excluded from the pastry category. Pastries also tend to be baked.</p>
+             <a href="#" class="btn">read more...</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="https://media.istockphoto.com/id/1053510028/photo/a-variety-of-fresh-homemade-bread-and-bakery-corner-in-luxury-hotel-breakfast-buffet.webp?b=1&s=612x612&w=0&k=20&c=pDMzT6bJQcscZgK2kl-zTnzemxOcsPLvNko0hIKLGSI=" alt="">
+        </div>
+        <div class="content">
+        <div class="icons">
+         
+        </div>
+         <h3>Breads</h3>
+         <p>Bread is usually made from a wheat-flour dough that is cultured with yeast, allowed to rise, and baked in an oven. Carbon dioxide and ethanol vapors produced during yeast fermentation result in bread's air pockets.
+        </p>
+         <a href="#" class="btn">read more...</a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://images.freeimages.com/images/large-previews/997/pastry-shop-barcelona-1515171.jpg?fmt=webp&w=500" alt="">
+    </div>
+    <div class="content">
+    <div class="icons">
+    </div>
+     <h3>Patties</h3>
+     <p>A patty is a flattened, usually round, serving of ground meat or legumes, grains, vegetables, or meat alternatives. Patties are found in multiple cuisines throughout the world. The ingredients are compacted and shaped, usually cooked, and served in various ways.</p>
+     <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://images.freeimages.com/images/large-previews/d21/cafe-showcase-1562468.jpg?fmt=webp&w=500" alt="">
+    </div>
+    <div class="content">
+    <div class="icons">
+       
+    </div>
+     <h3>Cakes</h3>
+     <p>Cake holds a deep symbolic meaning in birthday celebrations. It represents the joy and sweetness of life, and blowing out the candles is seen as a way to make a wish for the upcoming year. The act of cutting and sharing the cake with loved ones also symbolizes sharing happiness and good fortune.</p>
+     <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://images.stockcake.com/public/e/f/9/ef91eeb9-e846-43bb-8ac4-eab73f4f6ace_large/delicious-brownie-treats-stockcake.jpg" alt="">
+    </div>
+    <div class="content">
+    <div class="icons">
+     
+    </div>
+    <h3>Our Speciality</h3>
+     <p>This is our speciality.We would love if you order and try this at least for once </p>
+     
+     <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://media.istockphoto.com/id/1084572788/photo/3d-render-of-luxury-restaurant.jpg?b=1&s=612x612&w=0&k=20&c=VDx_UD7iCGcw8PfaczEnFXiVq17jB0rLPAMr3DcfoDE=" alt="">
+    </div>
+    <div class="content">
+    <div class="icons">
+      
+    </div>
+    <h3>Classic-Confections</h3>
+    <p>Do visit our bakery for the better taste and better environment!
+
+    </p>
+     <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- contect section start -->
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+92116789456</p>
+            <p>+9243578976</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>ummeaiman@gmail.com</p>
+            <p>aiman@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>Karachi, Pakistan</p>
+        </div>
+
+    </div>
+
+     <div class="row">
+         <form action="">
+             <h3>get in touch</h3>
+             <div class="inputBox">
+             <input type="text" placeholder="enter your name" class="box">
+             <input type="text" placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="enter your number" class="box">
+                <input type="text" placeholder="enter your subject" class="box">
+               </div>
+               <textarea placeholder=" your message" cols="30" rows="10"></textarea>
+               <input type="submit" value="send message" class="btn">
+         </form>
+         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3011806427!2d54.947543798608436!3d25.076381472700536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1642496355732!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+
+</section>
+
+<div class="space"></div>
+<!-- footer section start -->
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img decoding="async" src="img/payment.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by Umm-e-ayman || all rights reserved</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+</html>
